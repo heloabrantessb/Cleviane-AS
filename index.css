@@ -138,7 +138,7 @@ nav ul {
   }
   
   .marca img{
-    width: 250px;
+    width: 25rem;
   }
 }
 
@@ -165,74 +165,74 @@ nav ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90px;
-    height: 90px;
+    width: 9rem;
+    height: 9rem;
     border: 2px solid var(--verde);
     border-radius: 8px;
-    padding: 75px;
+    padding: 8rem;
     box-sizing: border-box;
     background-color: #FBE9D5;
     flex: 0 0 20%;
   }
   .colecao p {
-    font-size: 14px;
-    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-top: 1rem;
     color: var(--verde);
   }
   .colecao p1 {
-    font-size: 14px;
-    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-top: 1rem;
     color: var(--verde);
   }
   .colecao-arvore img {
-    width: 85px;
-    height: 85px;
+    width: 8.5rem;
+    height: 8.5rem;
   }
 
   .colecao-oracao img {
-    width: 80px;
-    height: 80px;
+    width: 8rem;
+    height: 8rem;
   }
 
   .colecao-patinha img {
-    width: 88px;
-    height: 88px;
+    width: 8rem;
+    height: 8rem;
   }
 
   .colecao-familia img {
-    width: 90px;
-    height: 90px;
+    width: 9rem;
+    height: 9rem;
   }
 
   .colecao-autismo img {
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
   }
 
   .colecao-criancas img {
-    width: 90px;
-    height: 90px;
+    width: 9rem;
+    height: 9rem;
   }
 
   .colecao-zodiaco img {
-    width: 90px;
-    height: 90px;
+    width: 9rem;
+    height: 9rem;
   }
 
   .colecao-onda img {
-    width: 90px;
-    height: 90px;
+    width: 9rem;
+    height: 9rem;
   }
   .quadrado-mais {
-    width: 200px;
-    height: 40px;
+    width: 20rem;
+    height: 4rem;
     background-color: var(--verde);
     color: var(--bege);
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    font-size: 14px; 
+    font-size: 1.4rem; 
     border-radius: 5px;
     margin-top: 3rem; 
     margin-bottom: 3rem; 
@@ -245,34 +245,142 @@ nav ul {
   h2, p{
     text-transform: uppercase;
     color: var(--verde);
-    letter-spacing: 2px;
     font-family:'Ubuntu', sans-serif;
   }
 
   h2{
-    margin-top: 9rem;
+    letter-spacing: 1.3rem;
+    margin-top: 4rem;
+    font-size: 6rem;
   }
 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
 
-   .p {
-    font-size: 14px;
-    margin-top: 10px;
+  .p {
+    font-size: 1.4rem;
+    margin-top: 1rem;
     color: var(--verde);
   }
 
   .texto {
-    padding-left: 90px;
-    padding-right: 30px;
+    padding-left: 29rem;
+    padding-right: 3rem;
+  }
+  .masculina {
+    margin-top: 5rem;
+    margin-right: 17rem;
+    margin-bottom: 8rem;
+  }
+  .masculina img {
+    height: 45rem;
+    width: 45rem;
+    border-radius: 8%;
   }
 
-  .masculina img {
-    height: 450px;
-    width: 450px;
+  .ver-mais {
+    background-color: var(--verde);
+    color: var(--bege);
+    font-size: 2rem;
+    padding: 0.8rem 3.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2.5rem;
+    transition: background-color 0.3s;
   }
+
+  .ver-mais:hover {
+    background-color: #556856;
+  }
+}
+
+.pre-footer {
+  background-color:#386b55;
+  color: var(--bege); 
+  padding: 2rem 0rem;
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: var(--verde);
+  color: var(--bege); 
+  padding: 2rem 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.footer-secao {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  margin-left: 16rem;
+  margin-right: 16rem;
+  white-space: nowrap;
+}
+
+.footer-secao > div {
+  width: 18%;
+  padding: 0 1rem;
+}
+
+.footer-secao h3 {
+  margin-bottom: 1rem;
+  font-size: 2rem; 
+}
+
+.footer-secao p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.redes-sociais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.redes-sociais i {
+  font-size: 3rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.redes-sociais i:hover {
+  transform: scale(1.1);
+}
+
+.pagamentos-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap; 
+}
+
+.mastercard img {
+  width: 7rem;
+  height: 5rem;
+}
+.visa img {
+  width: 6rem;
+  height: 5rem;
+}
+.elo img {
+  width: 7rem;
+  height: 5rem;
+}
+.pix img {
+  width: 6rem;
+  height: 6rem;
+  margin-top: -1rem;
+}
+.loja_protegida img {
+  width: 25rem;
+  height: 7rem;
 }
