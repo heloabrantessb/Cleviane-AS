@@ -16,3 +16,17 @@ body {
   height: 100%;
   background-color: var(--bege);
 }
+
+h2{
+  text-transform: uppercase;
+  color: var(--verde);
+  font-family:'Ubuntu', sans-serif;
+}
+p, p1, li{
+  font-family:'Ubuntu', sans-serif;
+}
+h1{
+  font-family:'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  font-size: 4rem;
+}

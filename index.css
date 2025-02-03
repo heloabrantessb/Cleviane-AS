@@ -1,5 +1,3 @@
-
-
 /* HEADER E NAVBAR */
 header {
   display: flex;
@@ -76,7 +74,7 @@ nav ul {
   }
 
   h2{
-    margin-top: 1rem;
+    margin-top: 3rem;
   }
 
   /* p{
@@ -84,27 +82,30 @@ nav ul {
     border-width: 30%;
   }
  */
- .linha{
-   display:block;
-   padding:0;
-   margin: 10px 0;
-   width:100%; 
-   height:1px;
-   background-color: var(--verde);
- }
-
+ .linha {
+  display: block; 
+  padding: 0;
+  margin: 1rem 0; 
+  width: 80%; 
+  max-width: 60rem;
+  height: 1px; 
+  background-color: var(--verde);
+  margin-left: auto;
+  margin-right: auto;
+}
   .categorias{
     display: flex;
     gap: 6rem;
     align-items: center;
     justify-content: center;
-
+    margin-top: 3rem;
+    
     .categoria{
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 2rem;
-
+      
       img{
         width: 18rem;
         border-radius: 50%;
@@ -115,8 +116,35 @@ nav ul {
       }
     }
   }
+  .categoria.anel img {
+    width: 18rem;
+    height: 18rem;
+  }
+  
+  /* Pulseiras */
+  .categoria.pulseira img {
+    width: 18rem;
+    height: 18rem;
+  }
+  
+  /* Colares */
+  .categoria.colar img {
+    width: 18rem;
+    height: 18rem;
+  }
+  
+  /* Relógios */
+  .categoria.relogio img {
+    width: 18rem;
+    height: 18rem;
+  }
+  
+  /* Piercings */
+  .categoria.piercing img {
+    width: 18rem;
+    height: 18rem;
+  }
 }
-
 /* SEÇÃO MARCAS */
 .marcas-container{
   h2, p{
@@ -126,9 +154,17 @@ nav ul {
   }
 
   h2{
-    margin-top: 1rem;
+    margin-top: 6rem;
   }
 
+  .linha {
+    display: block;
+    width: 80%;
+    height: 1px;    
+    background-color: var(--verde);
+    margin: 1rem auto;
+    max-width: 60rem;
+  }
   .marcas{
     display: flex;
     flex-wrap: wrap;
@@ -151,7 +187,15 @@ nav ul {
   }
 
   h2{
-    margin-top: 1rem;
+    margin-top: 6rem;
+  }
+  .linha {
+    display: block;
+    width: 80%;
+    height: 1px;    
+    background-color: var(--verde);
+    margin: 1rem auto;
+    max-width: 60rem;
   }
   .colecoes {
     display: flex;
@@ -242,6 +286,11 @@ nav ul {
 }
 /* SEÇÃO PARA ELES  */
 .masculina-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
   h2, p{
     text-transform: uppercase;
     color: var(--verde);
@@ -254,11 +303,6 @@ nav ul {
     font-size: 6rem;
   }
 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 2rem;
 
   .p {
     font-size: 1.4rem;
@@ -284,6 +328,7 @@ nav ul {
   .ver-mais {
     background-color: var(--verde);
     color: var(--bege);
+    font-family:'Ubuntu', sans-serif;
     font-size: 2rem;
     padding: 0.8rem 3.5rem;
     border: none;
@@ -310,23 +355,81 @@ nav ul {
 footer {
   background-color: var(--verde);
   color: var(--bege); 
-  padding: 2rem 0;
+  padding: 2rem 8rem;
   font-family: 'Ubuntu', sans-serif;
 }
 
 .footer-secao {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 20px;
-  margin-left: 16rem;
-  margin-right: 16rem;
-  white-space: nowrap;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .footer-secao > div {
-  width: 18%;
-  padding: 0 1rem;
+  flex: 1 1 22%; 
+  min-width: 20rem;
+}
+.footer-secao > div:first-child {
+  margin-left: 3rem;
+}
+.footer-secao > div:nth-child(4) {
+  margin-right: 3rem;
+}
+
+.email-form {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.email-form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #fffcfc;
+  border-radius: 4px;
+  width: 20rem;
+}
+
+.email-form button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #91b691; /* Verde */
+  color: var(--bege);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.email-form button:hover {
+  background-color: #45a049; /* Efeito de hover */
+}
+
+
+.linha {
+  display: block;
+  margin: 0 0 0 0;
+  width: 100%;
+  height: 1px; 
+  background-color: var(--bege);
+  opacity: 0.4;
+}
+
+.formas-pagamento {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  flex-direction: column;
+}
+
+.pagamentos-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
 }
 
 .footer-secao h3 {
@@ -345,7 +448,10 @@ footer {
   align-items: center;
   gap: 3rem;
 }
-
+.redes-sociais a {
+  text-decoration: none;
+  color: inherit;
+}
 .redes-sociais i {
   font-size: 3rem;
   cursor: pointer;
@@ -356,31 +462,50 @@ footer {
   transform: scale(1.1);
 }
 
-.pagamentos-container {
-  display: flex;
-  justify-content: space-around;
-  gap: 20px;
-  flex-wrap: wrap; 
-}
-
 .mastercard img {
-  width: 7rem;
-  height: 5rem;
+  width: 4.5rem;
+  height: 3.5rem;
 }
 .visa img {
-  width: 6rem;
-  height: 5rem;
+  width: 5rem;
+  height: 4rem;
 }
 .elo img {
-  width: 7rem;
-  height: 5rem;
+  width: 5.5rem;
+  height: 3.5rem;
 }
 .pix img {
-  width: 6rem;
-  height: 6rem;
-  margin-top: -1rem;
+  width: 3.5rem;
+  height: 3.5rem;
 }
-.loja_protegida img {
-  width: 25rem;
+.mercado_pago img{
+  width: 7rem;
   height: 7rem;
+  margin-top: 1.5rem;
+}
+.americanexpress img {
+  width: 5rem;
+  height: 4rem;
+}
+.loja_protegida {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 0.3rem;
+  margin-left: 49rem;
+}
+
+.loja_protegida img {
+  width: 22rem;
+  height: 6rem;
+}
+
+.posfooter{
+  background-color:#606261;
+  color: var(--bege); 
+  padding: 1rem 0;
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 3.5rem;
 }
