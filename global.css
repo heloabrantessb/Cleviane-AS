@@ -10,6 +10,87 @@
   --verde: #7B987C;
   --bege: #FBE9D5;
 }
+header {
+  display: flex;
+  background-color: var(--verde);
+  height: 8rem;
+  padding: 0 1.4rem;
+  justify-content: space-between;
+  align-items: center;
+
+  i {
+      font-size: 3rem;
+      color: var(--bege);
+      cursor: pointer;
+  }
+
+  img {
+      width: 8rem;
+      height: 6rem;
+  }
+}
+
+nav {
+  background-color: var(--bege);
+  height: 3rem;
+  margin: 0 1.4rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 30rem;
+
+  li {
+    list-style: none;
+    color: var(--verde);
+    cursor: pointer;
+    position: relative;
+  }
+}
+
+nav ul li .submenu {
+  display: block;
+  position: absolute;
+  background-color: var(--bege);
+  padding: 1rem;
+  list-style: none;
+  margin-top: 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+}
+
+nav ul li:hover .submenu, nav ul li .submenu:hover {
+  display: block; 
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease, visibility 0s linear 0s;
+}
+
+nav ul li .submenu li {
+  padding: 8px;
+  display: block;
+}
+
+nav ul li .submenu li a {
+  text-decoration: none;
+  color: var(--verde);
+  font-size: 1.6rem;
+}
+
+nav ul li:hover {
+  background-color: #cdd6c0;
+}
+
+nav ul li.products:hover, nav ul li.inicio, nav ul li.rastrear, nav ul li.contact {
+  background-color: transparent !important;
+}
+
 
 body {
   font-size: 1.6rem;
@@ -25,8 +106,195 @@ h2{
 p, p1, li{
   font-family:'Ubuntu', sans-serif;
 }
+<<<<<<< HEAD
+a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+
+.linha {
+  border-top: 2.3px solid var(--verde);
+  width: 100%; 
+  display: block;
+  margin-top: -2rem;
+  width: 100%;
+  height: 1px; 
+  background-color: var(--bege);
+  opacity: 0.4;
+}
+
+
+.titulo {
+  text-align: center;
+  font-size: 3rem;
+  color: var(--verde);
+  margin-top: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.pre-footer {
+  background-color:#386b55;
+  color: var(--bege); 
+  padding: 2rem 0rem;
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: var(--verde);
+  color: var(--bege); 
+  padding: 2rem 8rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.footer-secao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.footer-secao > div {
+  flex: 1 1 22%; 
+  min-width: 20rem;
+}
+.footer-secao > div:first-child {
+  margin-left: 3rem;
+}
+.footer-secao > div:nth-child(4) {
+  margin-right: 3rem;
+}
+
+.email-form {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.email-form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #fffcfc;
+  border-radius: 4px;
+  width: 20rem;
+}
+
+.email-form button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #91b691; /* Verde */
+  color: var(--bege);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.email-form button:hover {
+  background-color: #45a049;
+}
+
+
+.formas-pagamento {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  flex-direction: column;
+}
+
+.pagamentos-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+}
+
+.footer-secao h3 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.footer-secao p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.redes-sociais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.redes-sociais a {
+  text-decoration: none;
+  color: inherit;
+}
+.redes-sociais i {
+  font-size: 3rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.redes-sociais i:hover {
+  transform: scale(1.1);
+}
+
+.mastercard img {
+  width: 4.5rem;
+  height: 3.5rem;
+}
+.visa img {
+  width: 5rem;
+  height: 4rem;
+}
+.elo img {
+  width: 5.5rem;
+  height: 3.5rem;
+}
+.pix img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.mercado_pago img{
+  width: 7rem;
+  height: 7rem;
+  margin-top: 1.5rem;
+}
+.americanexpress img {
+  width: 5rem;
+  height: 4rem;
+}
+.loja_protegida {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 0.3rem;
+  margin-left: 49rem;
+}
+
+.loja_protegida img {
+  width: 22rem;
+  height: 6rem;
+}
+
+.posfooter{
+  background-color:#606261;
+  color: var(--bege); 
+  padding: 1rem 0;
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 3.5rem;
+=======
 h1{
   font-family:'Ubuntu', sans-serif;
   text-transform: uppercase;
   font-size: 4rem;
+>>>>>>> main
 }

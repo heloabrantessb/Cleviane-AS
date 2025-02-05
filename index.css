@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+=======
 /* HEADER E NAVBAR */
 header {
   display: flex;
@@ -26,21 +30,12 @@ nav {
   display: flex;
   align-items: center;
   font-size: 1.8rem;
+>>>>>>> main
   text-transform: uppercase;
-  justify-content: center;
+  color: var(--bege);
+  font-size: 6rem;
+  text-align: start;
 }
-
-nav ul {
-  display: flex;
-  gap: 30rem;
-
-  li {
-    list-style: none;
-    color: var(--verde);
-    cursor: pointer;
-  }
-}
-
 /* PRIMEIRA SEÇÃO COM CARROUSEL */
 .carrousel {
   display: flex;
@@ -175,6 +170,8 @@ nav ul {
   
   .marca img{
     width: 25rem;
+    height: 32rem;
+    border-radius: 8px;
   }
 }
 
@@ -189,6 +186,10 @@ nav ul {
   h2{
     margin-top: 6rem;
   }
+<<<<<<< HEAD
+  
+=======
+>>>>>>> main
   .linha {
     display: block;
     width: 80%;
@@ -341,6 +342,8 @@ nav ul {
   .ver-mais:hover {
     background-color: #556856;
   }
+<<<<<<< HEAD
+=======
 }
 
 .pre-footer {
@@ -508,4 +511,5 @@ footer {
   display: flex;
   justify-content: center;
   height: 3.5rem;
+>>>>>>> main
 }

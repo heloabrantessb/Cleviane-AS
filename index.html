@@ -27,10 +27,19 @@
   </header>
   <nav>
     <ul>
-      <li>Inicio</li>
-      <li>Nossos Produtos</li>
-      <li>Contato</li>
-      <li>Rastrear Pedido</li>
+      <li class="inicio"><a href="index.html">Início</a></li>
+      <li class="products">
+        Nossos Produtos
+        <ul class="submenu">
+          <li><a href="aneis.html">Anéis</a></li>
+          <li><a href="pulseiras.html">Pulseiras</a></li>
+          <li><a href="colares.html">Colares</a></li>
+          <li><a href="relogios.html">Relógios</a></li>
+          <li><a href="piercings.html">Piercings</a></li>
+        </ul>
+      </li>
+      <li class="contact"><a href="contato.html">Contato</a></li>
+      <li class="rastrear"><a href="rastrear.html">Rastrear Pedido</a></li>
     </ul>
   </nav>
   <main>
@@ -48,24 +57,34 @@
       <span class="linha"></span>
       <div class="categorias">
         <div class="categoria anel">
-          <img src="./assets/categoria.png" alt="Anéis">
-          <p>Anéis</p>
+          <a href="./aneis.html">
+            <img src="./assets/categoria.png" alt="Anéis">
+            <p>Anéis</p>
+          </a>
         </div>
         <div class="categoria pulseira">
-          <img src="./assets/pulseira_foto.png" alt="Pulseiras">
-          <p>Pulseiras</p>
+          <a href="./pulseiras.html">
+            <img src="./assets/pulseira_foto.png" alt="Pulseiras">
+            <p>Pulseiras</p>
+          </a>
         </div>
         <div class="categoria colar">
-          <img src="./assets/colares.png" alt="Colares">
-          <p>Colares</p>
+          <a href="./colares.html">
+            <img src="./assets/colares.png" alt="Colares">
+            <p>Colares</p>
+          </a>
         </div>
         <div class="categoria relogio">
-          <img src="./assets/relogios.png" alt="Relógios">
-          <p>Relógios</p>
+          <a href="./relogios.html">
+            <img src="./assets/relogios.png" alt="Relógios">
+            <p>Relógios</p>
+          </a>
         </div>
         <div class="categoria piercing">
-          <img src="./assets/piercings.png" alt="Piercings">
-          <p>Piercings</p>
+          <a href="./piercings.html">
+            <img src="./assets/piercings.png" alt="Piercings">
+            <p>Piercings</p>
+          </a>
         </div>
       </div>
     </section>
@@ -73,17 +92,18 @@
       <h2>Marcas</h2>
       <p>Escolha quais marcas você mais se identifica</p>
       <span class="linha"></span>
+      <span class="linha"></span>
       <div class="marcas">
         <div class="marca">
           <img src="./assets/marcas.png">
           <p>Vivara</p>
         </div>
         <div class="marca">
-          <img src="./assets/marcas.png">
+          <img src="./assets/pandora.png">
           <p>Pandora</p>
         </div>
         <div class="marca">
-          <img src="./assets/marcas.png">
+          <img src="./assets/rolex.png">
           <p>Rolex</p>
         </div>
       </div>
@@ -92,6 +112,7 @@
     <section class="colecoes-container">
       <h2>Coleções</h2>
       <p>Peças que celebram sua essência</p>
+      <span class="linha"></span>
       <span class="linha"></span>
       <div class="colecoes">
         <div class="colecao colecao-arvore">
@@ -140,12 +161,22 @@
       </div>
       <div class="masculina img">
         <img src="./assets/relogioParaeles.png">
+        <img src="./assets/relogioParaeles.png">
       </div>
     </section>
 
   </main>
   <div class="pre-footer">
     <div class="redes-sociais">
+      <a href="https://www.instagram.com/clevi.acessorios/" target="_blank">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://wa.me/+5541992707773" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+      <a href="https://www.facebook.com/cleviane.lopesoliveira?locale=pt_BR" target="_blank">
+        <i class="bi bi-facebook"></i>
+      </a>
       <a href="https://www.instagram.com/clevi.acessorios/" target="_blank">
         <i class="bi bi-instagram"></i>
       </a>
@@ -190,9 +221,16 @@
         </form>
       </div>
       </div>
+        <form class="email-form">
+          <input type="email" id="email" name="email" placeholder="Cadastre seu email" required>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+      </div>
       </div>
       <div class="formas-pagamento">
         <h3>Formas de Pagamento</h3>
+        <span class="linha"></span>
         <span class="linha"></span>
         <div class="pagamentos-container">
           <div class="footer mastercard">
@@ -213,6 +251,12 @@
           <div class="footer americanexpress">
             <img src="./assets/amex_logo.png" alt="American Express">
           </div>
+          <div class="footer mercado_pago">
+            <img src="./assets/mercado_pago_logo.png" alt="Mercado Pago">
+          </div>
+          <div class="footer americanexpress">
+            <img src="./assets/amex_logo.png" alt="American Express">
+          </div>
           <div class="footer loja_protegida">
             <img src="./assets/loja_protegida.png">
           </div>
@@ -220,6 +264,9 @@
       </div>
     </div>
   </footer>
+  <div class="posfooter">
+    <h6>Copyright CL Brasil - 2025. Todos os direitos reservados.</h6>
+  </div>
   <div class="posfooter">
     <h6>Copyright CL Brasil - 2025. Todos os direitos reservados.</h6>
   </div>
