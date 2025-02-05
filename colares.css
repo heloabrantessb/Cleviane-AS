@@ -10,7 +10,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center; /* Centraliza a seção */
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .product-cards-wrapper {

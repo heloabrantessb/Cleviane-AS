@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <link href="index.css" rel="stylesheet" type="text/css" />
+  <link href="contato.css" rel="stylesheet" type="text/css" />
   <link href="global.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,7 +12,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Playwrite+DE+VA+Guides&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
     rel="stylesheet">
-  <title>Cleviane relógios e acessórios</title>
+  <title>Contato</title>
 </head>
 
 <body>
@@ -43,125 +43,33 @@
     </ul>
   </nav>
   <main>
-    <section class="carrousel">
-      <!-- SUBSTITUIR A DIV PELO CARROUSEL -->
-      <img src="./assets/carrousel.png" class="carousel-container">
-      <div class="text-container">
-        <h1>Encontre o estilo que combina com você</h1>
-        <p>Descubra acessórios exclusivos que realçam sua personalidade com elegância e sofisticação.</p>
-      </div>
-    </section>
-    <section class="categorias-container">
-      <h2>Categorias</h2>
-      <p>Cada jóia possui um diferencial</p>
-      <span class="linha"></span>
-      <div class="categorias">
-        <div class="categoria anel">
-          <a href="./aneis.html">
-            <img src="./assets/categoria.png" alt="Anéis">
-            <p>Anéis</p>
-          </a>
+    <span class="linha"></span>
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-text">
+          <h1>Entre em contato conosco!</h1>
+          <p>Tem alguma dúvida ou sugestão? Estamos aqui para ajudar! Preencha o formulário ao lado e entraremos em contato.</p>
         </div>
-        <div class="categoria pulseira">
-          <a href="./pulseiras.html">
-            <img src="./assets/pulseira_foto.png" alt="Pulseiras">
-            <p>Pulseiras</p>
-          </a>
-        </div>
-        <div class="categoria colar">
-          <a href="./colares.html">
-            <img src="./assets/colares.png" alt="Colares">
-            <p>Colares</p>
-          </a>
-        </div>
-        <div class="categoria relogio">
-          <a href="./relogios.html">
-            <img src="./assets/relogios.png" alt="Relógios">
-            <p>Relógios</p>
-          </a>
-        </div>
-        <div class="categoria piercing">
-          <a href="./piercings.html">
-            <img src="./assets/piercings.png" alt="Piercings">
-            <p>Piercings</p>
-          </a>
+  
+        <div class="contact-form">
+          <form action="/submit" method="post">
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" required>
+  
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+  
+            <label for="assunto">Assunto</label>
+            <input type="text" id="assunto" name="assunto" required>
+  
+            <label for="mensagem">Corpo da Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+  
+            <button type="submit">Enviar</button>
+          </form>
         </div>
       </div>
     </section>
-    <section class="marcas-container">
-      <h2>Marcas</h2>
-      <p>Escolha quais marcas você mais se identifica</p>
-      <span class="linha"></span>
-      <div class="marcas">
-        <div class="marca">
-          <img src="./assets/marcas.png">
-          <p>Vivara</p>
-        </div>
-        <div class="marca">
-          <img src="./assets/marcas.png">
-          <p>Pandora</p>
-        </div>
-        <div class="marca">
-          <img src="./assets/marcas.png">
-          <p>Rolex</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="colecoes-container">
-      <h2>Coleções</h2>
-      <p>Peças que celebram sua essência</p>
-      <span class="linha"></span>
-      <div class="colecoes">
-        <div class="colecao colecao-arvore">
-          <img src="./assets/arvore.png">
-          <p>Árvore da vida</p>
-        </div>
-        <div class="colecao colecao-oracao">
-          <img src="./assets/oracao_icon.png">
-          <p>Religiosos</p>
-        </div>
-        <div class="colecao colecao-patinha">
-          <img src="./assets/patinha.png">
-          <p>Pets</p>
-        </div>
-        <div class="colecao colecao-familia">
-          <img src="./assets/familia 1.png">
-          <p>Família</p>
-        </div>
-        <div class="colecao colecao-autismo">
-          <img src="./assets/autismo 1.png">
-          <p>Inclusivos</p>
-        </div>
-        <div class="colecao colecao-criancas">
-          <img src="./assets/casal-de-criancas 1.png">
-          <p>Infantis</p>
-        </div>
-        <div class="colecao colecao-zodiaco">
-          <img src="./assets/zodiaco 1.png">
-          <p>Zodíaco</p>
-        </div>
-        <div class="colecao colecao-onda">
-          <img src="./assets/onda 1.png">
-          <p>Natureza</p>
-        </div>
-      </div>
-      <div class="quadrado-mais">
-        <p1>E muito mais!</p1>
-      </div>
-    </section>
-
-    <section class="masculina-container">
-      <div class="texto">
-        <h2>Para eles</h2>
-        <p>Relógios e acessórios masculinos</p>
-        <button class="ver-mais">Ver mais</button>
-      </div>
-      <div class="masculina img">
-        <img src="./assets/relogioParaeles.png">
-      </div>
-    </section>
-
   </main>
   <div class="pre-footer">
     <div class="redes-sociais">
