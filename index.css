@@ -139,6 +139,8 @@ h1 {
   
   .marca img{
     width: 25rem;
+    height: 32rem;
+    border-radius: 8px;
   }
 }
 
