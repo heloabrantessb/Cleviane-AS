@@ -10,6 +10,90 @@
   --verde: #7B987C;
   --bege: #FBE9D5;
 }
+<<<<<<< HEAD
+=======
+header {
+  display: flex;
+  background-color: var(--verde);
+  height: 8rem;
+  padding: 0 1.4rem;
+  justify-content: space-between;
+  align-items: center;
+
+  i {
+      font-size: 3rem;
+      color: var(--bege);
+      cursor: pointer;
+  }
+
+  img {
+      width: 8rem;
+      height: 6rem;
+  }
+}
+
+nav {
+  background-color: var(--bege);
+  height: 3rem;
+  margin: 0 1.4rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 30rem;
+
+  li {
+    list-style: none;
+    color: var(--verde);
+    cursor: pointer;
+    position: relative;
+  }
+}
+
+nav ul li .submenu {
+  display: block;
+  position: absolute;
+  background-color: var(--bege);
+  padding: 1rem;
+  list-style: none;
+  margin-top: 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+}
+
+nav ul li:hover .submenu, nav ul li .submenu:hover {
+  display: block; 
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease, visibility 0s linear 0s;
+}
+
+nav ul li .submenu li {
+  padding: 8px;
+  display: block;
+}
+
+nav ul li .submenu li a {
+  text-decoration: none;
+  color: var(--verde);
+  font-size: 1.6rem;
+}
+
+nav ul li:hover {
+  background-color: #cdd6c0;
+}
+
+nav ul li.products:hover, nav ul li.inicio, nav ul li.rastrear, nav ul li.contact {
+  background-color: transparent !important;
+}
+
+>>>>>>> c2bbe7e11f7bd08ec38bc55f31a29cb5e7ec27c4
 
 body {
   font-size: 1.6rem;
@@ -25,8 +109,11 @@ h2{
 p, p1, li{
   font-family:'Ubuntu', sans-serif;
 }
+<<<<<<< HEAD
 <<<<<<< Updated upstream:global.css
 =======
+=======
+>>>>>>> c2bbe7e11f7bd08ec38bc55f31a29cb5e7ec27c4
 <<<<<<< HEAD
 a {
   text-decoration: none;
@@ -213,13 +300,20 @@ footer {
   justify-content: center;
   height: 3.5rem;
 =======
+<<<<<<< HEAD
 >>>>>>> Stashed changes:css/global.css
+=======
+>>>>>>> c2bbe7e11f7bd08ec38bc55f31a29cb5e7ec27c4
 h1{
   font-family:'Ubuntu', sans-serif;
   text-transform: uppercase;
   font-size: 4rem;
+<<<<<<< HEAD
 <<<<<<< Updated upstream:global.css
 =======
 >>>>>>> main
 >>>>>>> Stashed changes:css/global.css
+=======
+>>>>>>> main
+>>>>>>> c2bbe7e11f7bd08ec38bc55f31a29cb5e7ec27c4
 }
