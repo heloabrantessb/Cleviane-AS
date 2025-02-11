@@ -1,36 +1,5 @@
-<<<<<<< HEAD
 h1 {
   font-family: 'Ubuntu', sans-serif;
-=======
-/* HEADER E NAVBAR */
-header {
-  display: flex;
-  background-color: var(--verde);
-  height: 8rem;
-  padding: 0 1.4rem;
-  justify-content: space-between;
-  align-items: center;
-
-  i {
-    font-size: 3rem;
-    color: var(--bege);
-    cursor: pointer;
-  }
-
-  img {
-    width: 8rem;
-    height: 6rem;
-  }
-}
-
-nav {
-  background-color: var(--bege);
-  height: 3rem;
-  margin: 0 1.4rem;
-  display: flex;
-  align-items: center;
-  font-size: 1.8rem;
-<<<<<<< HEAD
 }
 /* HEADER E NAVBAR */
 header {
@@ -60,9 +29,35 @@ nav {
   display: flex;
   align-items: center;
   font-size: 1.8rem;
-=======
->>>>>>> main
->>>>>>> c2bbe7e11f7bd08ec38bc55f31a29cb5e7ec27c4
+}
+/* HEADER E NAVBAR */
+header {
+  display: flex;
+  background-color: var(--verde);
+  height: 8rem;
+  padding: 0 1.4rem;
+  justify-content: space-between;
+  align-items: center;
+
+  i {
+    font-size: 3rem;
+    color: var(--bege);
+    cursor: pointer;
+  }
+
+  img {
+    width: 8rem;
+    height: 6rem;
+  }
+}
+
+nav {
+  background-color: var(--bege);
+  height: 3rem;
+  margin: 0 1.4rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
   text-transform: uppercase;
   color: var(--bege);
   font-size: 6rem;
@@ -218,10 +213,6 @@ nav {
   h2{
     margin-top: 6rem;
   }
-<<<<<<< HEAD
-  
-=======
->>>>>>> main
   .linha {
     display: block;
     width: 80%;
@@ -317,6 +308,7 @@ nav {
     margin-right: auto;
   }
 }
+
 /* SEÇÃO PARA ELES  */
 .masculina-container{
   display: flex;
@@ -374,8 +366,6 @@ nav {
   .ver-mais:hover {
     background-color: #556856;
   }
-<<<<<<< HEAD
-=======
 }
 
 .pre-footer {
@@ -543,5 +533,4 @@ footer {
   display: flex;
   justify-content: center;
   height: 3.5rem;
->>>>>>> main
 }

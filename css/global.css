@@ -1,4 +1,4 @@
-/* CONFIGURAÇÃO BÁSICA que isso*/
+/* CONFIGURAÇÃO BÁSICA*/
 * {
   margin: 0;
   padding: 0;
@@ -10,8 +10,6 @@
   --verde: #7B987C;
   --bege: #FBE9D5;
 }
-<<<<<<< HEAD
-=======
 header {
   display: flex;
   background-color: var(--verde);
@@ -93,8 +91,6 @@ nav ul li.products:hover, nav ul li.inicio, nav ul li.rastrear, nav ul li.contac
   background-color: transparent !important;
 }
 
->>>>>>> c2bbe7e11f7bd08ec38bc55f31a29cb5e7ec27c4
-
 body {
   font-size: 1.6rem;
   height: 100%;
@@ -109,12 +105,6 @@ h2{
 p, p1, li{
   font-family:'Ubuntu', sans-serif;
 }
-<<<<<<< HEAD
-<<<<<<< Updated upstream:global.css
-=======
-=======
->>>>>>> c2bbe7e11f7bd08ec38bc55f31a29cb5e7ec27c4
-<<<<<<< HEAD
 a {
   text-decoration: none;
   color: inherit; 
@@ -299,21 +289,12 @@ footer {
   display: flex;
   justify-content: center;
   height: 3.5rem;
-=======
-<<<<<<< HEAD
->>>>>>> Stashed changes:css/global.css
-=======
->>>>>>> c2bbe7e11f7bd08ec38bc55f31a29cb5e7ec27c4
-h1{
+}
+
+
+
+  /* h1{
   font-family:'Ubuntu', sans-serif;
   text-transform: uppercase;
   font-size: 4rem;
-<<<<<<< HEAD
-<<<<<<< Updated upstream:global.css
-=======
->>>>>>> main
->>>>>>> Stashed changes:css/global.css
-=======
->>>>>>> main
->>>>>>> c2bbe7e11f7bd08ec38bc55f31a29cb5e7ec27c4
-}
+} */

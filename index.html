@@ -1,276 +1,262 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="./css/index.css" rel="stylesheet" type="text/css" />
+    <link href="./css/global.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+DE+VA+Guides&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cleviane relógios e acessórios</title>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <link href="index.css" rel="stylesheet" type="text/css" />
-  <link href="global.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Playwrite+DE+VA+Guides&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-    rel="stylesheet">
-  <title>Cleviane relógios e acessórios</title>
-</head>
+  <body>
+    <header>
+      <a href="./html/cadastro.html"><i class="bi bi-person-circle"></i></a>
+      <img src="./assets/logo.png" />
+      <!-- <a href="https://melhorrastreio.com.br/">Rastreio</a> -->
+      <div class="header-icons">
+        <i class="bi bi-search"></i>
+        <i class="bi bi-cart3"></i>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li class="inicio"><a href="index.html">Início</a></li>
+        <li class="products">
+          Nossos Produtos
+          <ul class="submenu">
+            <li><a href="./html/aneis.html">Anéis</a></li>
+            <li><a href="./html/'pulseiras.html">Pulseiras</a></li>
+            <li><a href="./html/colares.html">Colares</a></li>
+            <li><a href="./html/relogios.html">Relógios</a></li>
+            <li><a href="./html/piercings.html">Piercings</a></li>
+          </ul>
+        </li>
+        <li class="contact"><a href="./html/contato.html">Contato</a></li>
+        <li class="rastrear">
+          <a href="./html/rastrear.html">Rastrear Pedido</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section class="carrousel">
+        <!-- SUBSTITUIR A DIV PELO CARROUSEL -->
+        <img src="./assets/carrousel.png" class="carousel-container" />
+        <div class="text-container">
+          <h1>Encontre o estilo que combina com você</h1>
+          <p>
+            Descubra acessórios exclusivos que realçam sua personalidade com
+            elegância e sofisticação.
+          </p>
+        </div>
+      </section>
+      <section class="categorias-container">
+        <h2>Categorias</h2>
+        <p>Cada jóia possui um diferencial</p>
+        <span class="linha"></span>
+        <div class="categorias">
+          <div class="categoria anel">
+            <a href="./html/aneis.html">
+              <img src="./assets/categoria.png" alt="Anéis" />
+              <p>Anéis</p>
+            </a>
+          </div>
+          <div class="categoria pulseira">
+            <a href="./html/pulseiras.html">
+              <img src="./assets/pulseira_foto.png" alt="Pulseiras" />
+              <p>Pulseiras</p>
+            </a>
+          </div>
+          <div class="categoria colar">
+            <a href="./html/colares.html">
+              <img src="./assets/colares.png" alt="Colares" />
+              <p>Colares</p>
+            </a>
+          </div>
+          <div class="categoria relogio">
+            <a href="./html/relogios.html">
+              <img src="./assets/relogios.png" alt="Relógios" />
+              <p>Relógios</p>
+            </a>
+          </div>
+          <div class="categoria piercing">
+            <a href="./html/piercings.html">
+              <img src="./assets/piercings.png" alt="Piercings" />
+              <p>Piercings</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="marcas-container">
+        <h2>Marcas</h2>
+        <p>Escolha quais marcas você mais se identifica</p>
+        <span class="linha"></span>
+        <div class="marcas">
+          <div class="marca">
+            <img src="./assets/marcas.png" />
+            <p>Vivara</p>
+          </div>
+          <div class="marca">
+            <img src="./assets/pandora.png" />
+            <p>Pandora</p>
+          </div>
+          <div class="marca">
+            <img src="./assets/rolex.png" />
+            <p>Rolex</p>
+          </div>
+        </div>
+      </section>
 
-<body>
-  <header>
-    <a href="cadastro.html"><i class="bi bi-person-circle"></i></a>
-    <img src="./assets/logo.png">
-    <!-- <a href="https://melhorrastreio.com.br/">Rastreio</a> -->
-    <div class="header-icons">
-      <i class="bi bi-search"></i>
-      <i class="bi bi-cart3"></i>
+      <section class="colecoes-container">
+        <h2>Coleções</h2>
+        <p>Peças que celebram sua essência</p>
+        f
+        <span class="linha"></span>
+        <div class="colecoes">
+          <div class="colecao colecao-arvore">
+            <img src="./assets/arvore.png" />
+            <p>Árvore da vida</p>
+          </div>
+          <div class="colecao colecao-oracao">
+            <img src="./assets/oracao_icon.png" />
+            <p>Religiosos</p>
+          </div>
+          <div class="colecao colecao-patinha">
+            <img src="./assets/patinha.png" />
+            <p>Pets</p>
+          </div>
+          <div class="colecao colecao-familia">
+            <img src="./assets/familia 1.png" />
+            <p>Família</p>
+          </div>
+          <div class="colecao colecao-autismo">
+            <img src="./assets/autismo 1.png" />
+            <p>Inclusivos</p>
+          </div>
+          <div class="colecao colecao-criancas">
+            <img src="./assets/casal-de-criancas 1.png" />
+            <p>Infantis</p>
+          </div>
+          <div class="colecao colecao-zodiaco">
+            <img src="./assets/zodiaco 1.png" />
+            <p>Zodíaco</p>
+          </div>
+          <div class="colecao colecao-onda">
+            <img src="./assets/onda 1.png" />
+            <p>Natureza</p>
+          </div>
+        </div>
+        <div class="quadrado-mais">
+          <p1>E muito mais!</p1>
+        </div>
+      </section>
+
+      <section class="masculina-container">
+        <div class="texto">
+          <h2>Para eles</h2>
+          <p>Relógios e acessórios masculinos</p>
+          <button class="ver-mais">Ver mais</button>
+        </div>
+        <div class="masculina img">
+          <img src="./assets/relogioParaeles.png" />
+        </div>
+      </section>
+    </main>
+    <div class="pre-footer">
+      <div class="redes-sociais">
+        <a href="https://www.instagram.com/clevi.acessorios/" target="_blank">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://wa.me/+5541992707773" target="_blank">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/cleviane.lopesoliveira?locale=pt_BR"
+          target="_blank"
+        >
+          <i class="bi bi-facebook"></i>
+        </a>
+      </div>
     </div>
-  </header>
-  <nav>
-    <ul>
-      <li class="inicio"><a href="index.html">Início</a></li>
-      <li class="products">
-        Nossos Produtos
-        <ul class="submenu">
-          <li><a href="aneis.html">Anéis</a></li>
-          <li><a href="pulseiras.html">Pulseiras</a></li>
-          <li><a href="colares.html">Colares</a></li>
-          <li><a href="relogios.html">Relógios</a></li>
-          <li><a href="piercings.html">Piercings</a></li>
-        </ul>
-      </li>
-      <li class="contact"><a href="contato.html">Contato</a></li>
-      <li class="rastrear"><a href="rastrear.html">Rastrear Pedido</a></li>
-    </ul>
-  </nav>
-  <main>
-    <section class="carrousel">
-      <!-- SUBSTITUIR A DIV PELO CARROUSEL -->
-      <img src="./assets/carrousel.png" class="carousel-container">
-      <div class="text-container">
-        <h1>Encontre o estilo que combina com você</h1>
-        <p>Descubra acessórios exclusivos que realçam sua personalidade com elegância e sofisticação.</p>
-      </div>
-    </section>
-    <section class="categorias-container">
-      <h2>Categorias</h2>
-      <p>Cada jóia possui um diferencial</p>
-      <span class="linha"></span>
-      <div class="categorias">
-        <div class="categoria anel">
-          <a href="./aneis.html">
-            <img src="./assets/categoria.png" alt="Anéis">
-            <p>Anéis</p>
-          </a>
+    <footer>
+      <div class="footer-secao">
+        <div class="nossa-empresa">
+          <h3>Nossa Empresa</h3>
+          <p>Sobre nós</p>
+          <p>Contato</p>
+          <p>Nossos fornecedores</p>
+          <p>Avaliações de clientes</p>
         </div>
-        <div class="categoria pulseira">
-          <a href="./pulseiras.html">
-            <img src="./assets/pulseira_foto.png" alt="Pulseiras">
-            <p>Pulseiras</p>
-          </a>
+        <div class="atendimento">
+          <h3>Atendimento</h3>
+          <p>Central de atendimento</p>
+          <p>Horário de atendimento</p>
+          <p>Acompanhe seu pedido</p>
         </div>
-        <div class="categoria colar">
-          <a href="./colares.html">
-            <img src="./assets/colares.png" alt="Colares">
-            <p>Colares</p>
-          </a>
+        <div class="informacoes">
+          <h3>Informações</h3>
+          <p>Política de privacidade</p>
+          <p>Política de troca</p>
+          <p>Política de devolução</p>
+          <p>Política de reembolso</p>
+          <p>Política de envio</p>
+          <p>Política de garantia</p>
         </div>
-        <div class="categoria relogio">
-          <a href="./relogios.html">
-            <img src="./assets/relogios.png" alt="Relógios">
-            <p>Relógios</p>
-          </a>
+        <div class="Notícias">
+          <h3>Notícias</h3>
+          <p>Fique por dentro de novos produtos e promoções!</p>
+          <form class="email-form">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Cadastre seu email"
+              required
+            />
+            <button type="submit">Enviar</button>
+          </form>
         </div>
-        <div class="categoria piercing">
-          <a href="./piercings.html">
-            <img src="./assets/piercings.png" alt="Piercings">
-            <p>Piercings</p>
-          </a>
-        </div>
-      </div>
-    </section>
-    <section class="marcas-container">
-      <h2>Marcas</h2>
-      <p>Escolha quais marcas você mais se identifica</p>
-      <span class="linha"></span>
-      <span class="linha"></span>
-      <div class="marcas">
-        <div class="marca">
-          <img src="./assets/marcas.png">
-          <p>Vivara</p>
-        </div>
-        <div class="marca">
-          <img src="./assets/pandora.png">
-          <p>Pandora</p>
-        </div>
-        <div class="marca">
-          <img src="./assets/rolex.png">
-          <p>Rolex</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="colecoes-container">
-      <h2>Coleções</h2>
-      <p>Peças que celebram sua essência</p>
-      <span class="linha"></span>
-      <span class="linha"></span>
-      <div class="colecoes">
-        <div class="colecao colecao-arvore">
-          <img src="./assets/arvore.png">
-          <p>Árvore da vida</p>
-        </div>
-        <div class="colecao colecao-oracao">
-          <img src="./assets/oracao_icon.png">
-          <p>Religiosos</p>
-        </div>
-        <div class="colecao colecao-patinha">
-          <img src="./assets/patinha.png">
-          <p>Pets</p>
-        </div>
-        <div class="colecao colecao-familia">
-          <img src="./assets/familia 1.png">
-          <p>Família</p>
-        </div>
-        <div class="colecao colecao-autismo">
-          <img src="./assets/autismo 1.png">
-          <p>Inclusivos</p>
-        </div>
-        <div class="colecao colecao-criancas">
-          <img src="./assets/casal-de-criancas 1.png">
-          <p>Infantis</p>
-        </div>
-        <div class="colecao colecao-zodiaco">
-          <img src="./assets/zodiaco 1.png">
-          <p>Zodíaco</p>
-        </div>
-        <div class="colecao colecao-onda">
-          <img src="./assets/onda 1.png">
-          <p>Natureza</p>
-        </div>
-      </div>
-      <div class="quadrado-mais">
-        <p1>E muito mais!</p1>
-      </div>
-    </section>
-
-    <section class="masculina-container">
-      <div class="texto">
-        <h2>Para eles</h2>
-        <p>Relógios e acessórios masculinos</p>
-        <button class="ver-mais">Ver mais</button>
-      </div>
-      <div class="masculina img">
-        <img src="./assets/relogioParaeles.png">
-        <img src="./assets/relogioParaeles.png">
-      </div>
-    </section>
-
-  </main>
-  <div class="pre-footer">
-    <div class="redes-sociais">
-      <a href="https://www.instagram.com/clevi.acessorios/" target="_blank">
-        <i class="bi bi-instagram"></i>
-      </a>
-      <a href="https://wa.me/+5541992707773" target="_blank">
-        <i class="bi bi-whatsapp"></i>
-      </a>
-      <a href="https://www.facebook.com/cleviane.lopesoliveira?locale=pt_BR" target="_blank">
-        <i class="bi bi-facebook"></i>
-      </a>
-      <a href="https://www.instagram.com/clevi.acessorios/" target="_blank">
-        <i class="bi bi-instagram"></i>
-      </a>
-      <a href="https://wa.me/+5541992707773" target="_blank">
-        <i class="bi bi-whatsapp"></i>
-      </a>
-      <a href="https://www.facebook.com/cleviane.lopesoliveira?locale=pt_BR" target="_blank">
-        <i class="bi bi-facebook"></i>
-      </a>
-    </div>
-  </div>
-  <footer>
-    <div class="footer-secao">
-      <div class="nossa-empresa">
-        <h3>Nossa Empresa</h3>
-        <p>Sobre nós</p>
-        <p>Contato</p>
-        <p>Nossos fornecedores</p>
-        <p>Avaliações de clientes</p>
-      </div>
-      <div class="atendimento">
-        <h3>Atendimento</h3>
-        <p>Central de atendimento</p>
-        <p>Horário de atendimento</p>
-        <p>Acompanhe seu pedido</p>
-      </div>
-      <div class="informacoes">
-        <h3>Informações</h3>
-        <p>Política de privacidade</p>
-        <p>Política de troca</p>
-        <p>Política de devolução</p>
-        <p>Política de reembolso</p>
-        <p>Política de envio</p>
-        <p>Política de garantia</p>
-      </div>
-      <div class="Notícias">
-        <h3>Notícias</h3>
-        <p>Fique por dentro de novos produtos e promoções!</p>
-        <form class="email-form">
-          <input type="email" id="email" name="email" placeholder="Cadastre seu email" required>
-          <button type="submit">Enviar</button>
-        </form>
-      </div>
-      </div>
-        <form class="email-form">
-          <input type="email" id="email" name="email" placeholder="Cadastre seu email" required>
-          <button type="submit">Enviar</button>
-        </form>
-      </div>
-      </div>
       </div>
       <div class="formas-pagamento">
         <h3>Formas de Pagamento</h3>
         <span class="linha"></span>
-        <span class="linha"></span>
         <div class="pagamentos-container">
           <div class="footer mastercard">
-            <img src="./assets/MasterCard_logo.png">
+            <img src="./assets/MasterCard_logo.png" />
           </div>
           <div class="footer visa">
-            <img src="./assets/VISA-Logo.png">
+            <img src="./assets/VISA-Logo.png" />
           </div>
           <div class="footer elo">
-            <img src="./assets/cartao_elo.png">
+            <img src="./assets/cartao_elo.png" />
           </div>
           <div class="footer pix">
-            <img src="./assets/logo_pix.png">
+            <img src="./assets/logo_pix.png" />
           </div>
           <div class="footer mercado_pago">
-            <img src="./assets/mercado_pago_logo.png" alt="Mercado Pago">
+            <img src="./assets/mercado_pago_logo.png" alt="Mercado Pago" />
           </div>
           <div class="footer americanexpress">
-            <img src="./assets/amex_logo.png" alt="American Express">
-          </div>
-          <div class="footer mercado_pago">
-            <img src="./assets/mercado_pago_logo.png" alt="Mercado Pago">
-          </div>
-          <div class="footer americanexpress">
-            <img src="./assets/amex_logo.png" alt="American Express">
+            <img src="./assets/amex_logo.png" alt="American Express" />
           </div>
           <div class="footer loja_protegida">
-            <img src="./assets/loja_protegida.png">
+            <img src="./assets/loja_protegida.png" />
           </div>
         </div>
       </div>
+    </footer>
+    <div class="posfooter">
+      <h6>Copyright CL Brasil - 2025. Todos os direitos reservados.</h6>
     </div>
-  </footer>
-  <div class="posfooter">
-    <h6>Copyright CL Brasil - 2025. Todos os direitos reservados.</h6>
-  </div>
-  <div class="posfooter">
-    <h6>Copyright CL Brasil - 2025. Todos os direitos reservados.</h6>
-  </div>
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
