@@ -241,6 +241,7 @@ nav {
     box-sizing: border-box;
     background-color: #FBE9D5;
     flex: 0 0 20%;
+    cursor: pointer;
   }
   .colecao p {
     font-size: 1.5rem;
@@ -363,11 +364,15 @@ nav {
     transition: background-color 0.3s;
   }
 
-  .ver-mais:hover {
-    background-color: #556856;
-  }
+}
+.ver-mais:hover {
+  background-color: #556856;
+  cursor: pointer;
 }
 
+.quadrado-mais p{
+  color: var(--bege);
+}
 .pre-footer {
   background-color:#386b55;
   color: var(--bege); 
@@ -534,3 +539,4 @@ footer {
   justify-content: center;
   height: 3.5rem;
 }
+
